@@ -81,7 +81,30 @@ header img:hover {
 .sec2 {
     background-color: white;
 }
+    /* The bottom part */
+.bot-sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 40px;
+}
+.box-sec2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 
+    padding: 40px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 0.4px solid #f1f1f1;
+}
+.box-sec2 p {
+    font-size: 18px;
+    text-align: center;
+}
 
 
 
@@ -125,5 +148,16 @@ header img:hover {
     /* Second part */
     .sec2 {
         flex-direction: column;
+    }
+        /* Bottom part */
+    .bot-sec2 {
+        flex-direction: column;
+    }
+    .box-sec2 {
+        width: 90%;
+    }
+    .box-sec2 p {
+        font-size: 30px;
+        font-weight: 500;
     }
 }
