@@ -77,7 +77,10 @@ header img:hover {
     font-size: 20px;
 }
 
-
+/* Second part */
+.sec2 {
+    background-color: white;
+}
 
 
 
@@ -108,6 +111,7 @@ header img:hover {
         flex-direction: column-reverse;
         gap: 50px;
         padding: 40px 20px;
+        margin-bottom: 40px;
     }
     .sec1-left {
         width: 90%;
@@ -116,5 +120,10 @@ header img:hover {
     }
     .sec1 img {
         width: 90%;
+    }
+
+    /* Second part */
+    .sec2 {
+        flex-direction: column;
     }
 }
