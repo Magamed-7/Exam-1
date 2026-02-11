@@ -106,7 +106,34 @@ header img:hover {
     text-align: center;
 }
 
+/* Third part */
 
+.right-sec3 {
+    width: 55%;                /*WiDTH */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.right-sec3-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;                            /* WIDTH */
+    padding: 60px 30px;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+}
+.right-sec3-card h1 {
+    font-size: 48px;
+}
+.right-sec3-card p {
+    color: rgba(123, 123, 123, 1);
+    font-size: 20px;
+}
 
 
 
@@ -159,5 +186,16 @@ header img:hover {
     .box-sec2 p {
         font-size: 30px;
         font-weight: 500;
+    }
+
+    /* Third section */
+    .sec3 {
+        flex-direction: column;
+    }
+    .right-sec3 {
+        width: 90%;
+    }
+    .right-sec3-card {
+        width: 90%;
     }
 }
