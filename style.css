@@ -135,6 +135,44 @@ header img:hover {
     font-size: 20px;
 }
 
+/* Fourth section */
+.sec4 {
+    margin: 30px;
+    padding: 60px;
+}
+.sec4 p {
+    color: rgba(123, 123, 123, 1);
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sec4 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.sec4 h1 span {
+    color:rgba(255, 83, 0, 1);
+}
+
+    /* People cards */
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.person-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0.5px solid #f1f1f1;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -197,5 +235,19 @@ header img:hover {
     }
     .right-sec3-card {
         width: 90%;
+    }
+
+    /* Fourth section */
+    .sec4 {
+        margin: 20px 0;
+        padding: 30px;
+    }
+    .people {
+        width: 100%;
+        overflow: auto;
+        gap: 30px;
+    }
+    .person-card {
+        min-width: 100%;
     }
 }
