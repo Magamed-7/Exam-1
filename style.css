@@ -215,6 +215,93 @@ header img:hover {
     padding-top: 80px;
 }
 
+/* Sixth section */
+.sec6 {
+    margin: 30px 0;
+    padding: 60px;
+}
+.sec6 p {
+    color: rgba(123, 123, 123, 1);
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sec6 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.sec6 h1 span {
+    color:rgba(255, 83, 0, 1);
+}
+    /* Card */
+
+.total-sec6-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+.sec6-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 40%;
+    padding: 15px;
+    border: 0.5px solid #f1f1f1;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.top-sec6-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-in-sec6-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 59%;
+}
+.top-in-sec6-card span {
+    color: rgba(255, 83, 0, 1);
+    font-size: 16px;
+}
+.top-in-sec6-card h2 {
+    font-size: 25px;
+}
+    /* Bottom part */
+.sec6-card-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bottom-in-sec6-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-in-sec6-card p {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.bottom-in2-sec6-card {
+    display: flex;
+    gap: 10px;
+}
+.bottom-in2-sec6-card span {
+    color: rgba(123, 123, 123, 1);
+    font-size: 16px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -305,5 +392,23 @@ header img:hover {
     }
     .sec5-left {
         min-width: 80%;
+    }
+
+    /* Sixth section */
+    .sec6 {
+        padding: 30px;
+        margin: 20px 0;
+    }
+    .total-sec6-cards {
+        width: 100%;
+        overflow: auto;
+        gap: 20px;
+    }
+    .sec6-card {
+        min-width: 90%;
+    }
+    .sec6-card img {
+        width: 120px;
+        height: 120px;
     }
 }
