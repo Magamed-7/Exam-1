@@ -429,6 +429,21 @@ header img:hover {
     font-size: 20px;
 }
 
+/* Part eight */
+
+.sec8 {
+    margin: 30px 0;
+    padding: 60px;
+}
+.sec8-img1 {
+    width: 100%;
+}
+.sec8-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
 
 
 
@@ -564,5 +579,17 @@ header img:hover {
     }
     .txt2 button {
         width: 40%;
+    }
+
+    /* Part eight */
+    .sec8 {
+        padding: 30px;
+        margin: 20px 0;
+    }
+    .sec8-img2 {
+        width: 100%;
+    }
+    .sec8-img img {
+        width: 20%;
     }
 }
