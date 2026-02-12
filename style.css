@@ -445,6 +445,112 @@ header img:hover {
     margin-top: 70px;
 }
 
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: rgba(55, 55, 55, 1);
+}
+.foot-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+.foot-part h1 {
+    font-size: 40px;
+    color: rgba(255, 83, 0, 1);
+}
+.foot-part h1 span {
+    color: white;
+}
+.foot-part p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+.foot-part-img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.foot-part-img img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.foot-part a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-decoration: none;
+}
+.foot-part-input {
+    display: flex;
+    border-radius: 5px;
+    border: 0.5px solid rgba(255, 83, 0, 1);
+}
+.foot-part-input input {
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    /* border: 0.5px solid rgba(255, 83, 0, 1); */
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+.foot-part-input input::placeholder {
+    color: rgba(123, 123, 123, 1);
+    font-size: 16px;
+}
+.foot-part-input input:focus {
+    color: rgba(255, 255, 255, 1);
+}
+.foot-part-input img {
+    padding: 20px;
+    background-color: rgba(255, 83, 0, 1);
+}
+.foot-part-input img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.foot-part2 {
+    gap: 35px;
+}
+
+.orange {
+    width: 100%;
+    background-color: rgba(255, 83, 0, 1);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+.orange-in {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    padding-left: 60px;
+}
+.orange-in p {
+    font-size: 16px;
+}
+.orange-img {
+    padding-right: 60px;
+} 
+.orange-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 .block {
@@ -591,5 +697,30 @@ header img:hover {
     }
     .sec8-img img {
         width: 20%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 15px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .foot-part {
+        width: 90%;
+        gap: 20px;
+    }
+    .foot-part-input input {
+        width: 80%;
+    }
+        /* Orange end */
+    .orange-in {
+        padding: 20px;
+        gap: 0px;
+        align-items: start;
+        justify-content: center;
+    }
+    .orange-in p {
+        font-size: 22px;
+        text-align: center;
     }
 }
